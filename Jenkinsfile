@@ -1,5 +1,5 @@
 unifiedPipeline("aa", "bb", [
-    type "php",
+    type :"php",
     runTests: true,
     testCommand: "make test"
     buildCommand: "make build"
