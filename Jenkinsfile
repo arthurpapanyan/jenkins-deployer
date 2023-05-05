@@ -1,2 +1,2 @@
 def yaml = readYaml file: "pipeline.yaml"
-unifiedPipeline("aa", "bb")
+unifiedPipeline("aa", "bb", yaml)
